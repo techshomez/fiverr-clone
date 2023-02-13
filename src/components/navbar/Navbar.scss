@@ -1,0 +1,40 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  background-color: #013914;
+  color: #fff;
+  .container {
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+    .logo {
+      .text_logo {
+        font-size: 34px;
+        font-weight: bold;
+      }
+      .dot_logo {
+        color: #1dbf73;
+      }
+    }
+    .links {
+      display: flex;
+      gap: 24px;
+      align-items: center;
+      font-weight: 500px;
+      font-family: "Montserrat", sans-serif;
+      button {
+        color: #fff;
+        padding: 10px 20px;
+        border-radius: 5px;
+        border: 1px solid #fff;
+        cursor: pointer;
+        background-color: transparent;
+        &:hover {
+          background-color: #1dbf73;
+          border-color: #1dbf73;
+        }
+      }
+    }
+  }
+}
