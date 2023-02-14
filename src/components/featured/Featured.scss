@@ -2,11 +2,11 @@
   height: 600px;
   display: flex;
   justify-content: center;
-  background-color: #013914;
+  background-color: #003c1a;
   color: #fff;
 
   .container {
-    width: 1408px;
+    width: 1150px;
     display: flex;
     align-items: center;
   }
@@ -17,7 +17,11 @@
     gap: 30px;
 
     h1 {
-      font-size: 50%;
+      font-size: 40px;
+
+      i {
+        font-weight: 300;
+      }
     }
 
     .search {
@@ -27,17 +31,56 @@
       background-color: #fff;
       border-radius: 5px;
       .searchInput {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+        img {
+          width: 20px;
+          height: 20px;
+          margin: 10px;
+        }
+
+        input {
+          border: none;
+          outline: none;
+        }
       }
+
       button {
+        width: 128px;
+        height: 58px;
+        border: none;
+        background-color: #1dbf73;
+        color: #fff;
+        cursor: pointer;
       }
-      .popular {
-        span {
-        }
-        button {
-        }
+    }
+    .popular {
+      display: flex;
+      align-items: center;
+      gap: 18px;
+
+      span {
+      }
+
+      button {
+        color: #fff;
+        background-color: transparent;
+        border: 1px solid #fff;
+        padding: 5px 18px;
+        border-radius: 20px;
+        font-size: 14px;
+        cursor: pointer;
       }
     }
   }
   .right {
+    height: 101%;
+  }
+
+  img {
+    height: 99%;
+    object-fit: contain;
   }
 }
