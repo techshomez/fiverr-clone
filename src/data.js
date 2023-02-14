@@ -55,14 +55,14 @@ export const cards = [
   },
   {
     id: 10,
-    title: "Social Media",
-    desc: "Reach more customers",
-    img: "https://fiverr-res.cloudinary.com/q_auto,f_auto,w_255,dpr_1.0/v1/attachments/generic_asset/asset/055f758c1f5b3a1ab38c047dce553860-1598561741667/social-2x.png",
+    title: "Data Entry",
+    desc: "Learn your business",
+    img: "https://www.fiverr.com/categories/data/data-entry?source=hplo_subcat_first_step&pos=10",
   },
   {
     id: 11,
-    title: "Social Media",
-    desc: "Reach more customers",
+    title: "Book Covers",
+    desc: "Showcase your story",
     img: "https://fiverr-res.cloudinary.com/q_auto,f_auto,w_255,dpr_1.0/v1/attachments/generic_asset/asset/055f758c1f5b3a1ab38c047dce553860-1598561741667/social-2x.png",
   },
 ];
