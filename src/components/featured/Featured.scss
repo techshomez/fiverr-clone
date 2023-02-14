@@ -1,0 +1,43 @@
+.featured {
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  background-color: #013914;
+  color: #fff;
+
+  .container {
+    width: 1408px;
+    display: flex;
+    align-items: center;
+  }
+
+  .left {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    h1 {
+      font-size: 50%;
+    }
+
+    .search {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background-color: #fff;
+      border-radius: 5px;
+      .searchInput {
+      }
+      button {
+      }
+      .popular {
+        span {
+        }
+        button {
+        }
+      }
+    }
+  }
+  .right {
+  }
+}

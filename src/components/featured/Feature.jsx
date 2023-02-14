@@ -14,9 +14,19 @@ const Featured = () => {
               <img src="" alt="" />
               <input type="text" placeholder='Try "building mobile app"' />
             </div>
+            <button>Search</button>
+          </div>
+          <div className="popular">
+            <span>Popular:</span>
+            <button>Web Design</button>
+            <button>Wordpress</button>
+            <button>Logo Design</button>
+            <button>AI Services</button>
           </div>
         </div>
-        <div className="right"></div>
+        <div className="right">
+          <img src="" alt="" />
+        </div>
       </div>
     </div>
   );
