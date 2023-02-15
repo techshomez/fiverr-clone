@@ -27,7 +27,7 @@ export const cards = [
     id: 5,
     title: "Video Explainer",
     desc: "Engage your audience",
-    img: "https://www.fiverr.com/categories/video-animation/animated-explainer-videos?source=hplo_subcat_first_step&pos=5",
+    img: "https://fiverr-res.cloudinary.com/q_auto,f_auto,w_255,dpr_1.0/v1/attachments/generic_asset/asset/055f758c1f5b3a1ab38c047dce553860-1598561741663/animated-explainer-2x.png",
   },
   {
     id: 6,
@@ -57,7 +57,7 @@ export const cards = [
     id: 10,
     title: "Data Entry",
     desc: "Learn your business",
-    img: "https://www.fiverr.com/categories/data/data-entry?source=hplo_subcat_first_step&pos=10",
+    img: "https://fiverr-res.cloudinary.com/q_auto,f_auto,w_255,dpr_1.0/v1/attachments/generic_asset/asset/055f758c1f5b3a1ab38c047dce553860-1598561741664/data-entry-2x.png",
   },
   {
     id: 11,
