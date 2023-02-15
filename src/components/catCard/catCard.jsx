@@ -10,7 +10,7 @@ const CategoryCard = ({ item }) => {
         <span className="title">{item.title}</span>
       </div>
     </Link>
-  );
+  )
 };
 
 export default CategoryCard;
