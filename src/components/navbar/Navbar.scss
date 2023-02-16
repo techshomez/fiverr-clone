@@ -63,6 +63,14 @@
           color: gray;
           width: 120px;
           font-weight: 300;
+
+          a {
+            text-decoration: none;
+
+            &:hover {
+              color: #1dbf73;
+            }
+          }
         }
       }
 
