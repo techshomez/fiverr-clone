@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
-
->>>>>>> efe99c9 (project slider component)
 import Featured from "../../components/featured/Feature";
 import Slide from "../../components/slide/Slide";
 import TrustedBy from "../../components/trustedBy/TrustedBy";
@@ -9,10 +5,8 @@ import "./Home.scss";
 import { cards, projects } from "../../data";
 import CategoryCard from "../../components/catCard/catCard";
 import { FaRegCheckCircle } from "react-icons/fa";
-<<<<<<< HEAD
-=======
 import ProjectCard from "../../components/projectCard/proCard";
->>>>>>> efe99c9 (project slider component)
+
 
 const Home = () => {
   return (
@@ -104,19 +98,12 @@ const Home = () => {
       </div>
       <Slide slidesToShow={4} arrowsScroll={4}>
         {projects.map((card) => {
-<<<<<<< HEAD
           return <CategoryCard item={card} key={card.id} />;
-=======
+
           return <ProjectCard item={card} key={card.id} />;
->>>>>>> efe99c9 (project slider component)
         })}
       </Slide>
     </div>
   );
 };
-
-<<<<<<< HEAD
 export default Home;
-=======
-export default Home;
->>>>>>> efe99c9 (project slider component)
