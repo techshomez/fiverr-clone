@@ -98,8 +98,6 @@ const Home = () => {
       </div>
       <Slide slidesToShow={4} arrowsScroll={4}>
         {projects.map((card) => {
-          return <CategoryCard item={card} key={card.id} />;
-
           return <ProjectCard item={card} key={card.id} />;
         })}
       </Slide>
