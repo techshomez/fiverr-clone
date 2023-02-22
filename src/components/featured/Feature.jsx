@@ -26,7 +26,8 @@ const Featured = () => {
           </div>
         </div>
         <div className="right">
-          <img src="./img/hero/adam.png" width="500" height="600" alt="" />
+          <img src="./img/man.png" 
+          alt="" />
         </div>
       </div>
     </div>
