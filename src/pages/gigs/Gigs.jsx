@@ -21,7 +21,7 @@ const Gigs = () => {
             <span className="sortby">SortBy</span>
             <span className="sorttype">Best Selling</span>
             <img src="./img/down.png" alt="" />
-            <div className="rightMenu">
+            <div className="rightmenu">
               <span>Newest</span>
               <span>Best Selling</span>
             </div>
