@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
 import "./gigCard.scss";
 
-const gigCard = ({ item }) => {
+const GigCard = ({ item }) => {
   return (
-    <Link>
+    <Link to="/gig/123" className="link">
       <div className="gigcard">
         <img src={item.img} alt="" />
         <div className="info">
@@ -30,4 +30,4 @@ const gigCard = ({ item }) => {
   );
 };
 
-export default gigCard;
+export default GigCard;

@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import "./Gigs.scss";
+import { gigs } from "../../data";
+import GigCard from "../../components/gigCard/GigCard";
 
 const Gigs = () => {
   const [open, setOpen] = useState(false);
@@ -13,7 +15,7 @@ const Gigs = () => {
   return (
     <div className="gigs">
       <div className="container">
-        <span className="breadcrumbs">FIVERR > GRAPHICS > DESIGN</span>
+        <span className="breadcrumbs">FIVERR GRAPHICS DESIGN</span>
         <h1>AI Artist</h1>
         <p>
           Explore the boundaries of art and technology with Fiverr's AI artist
@@ -41,6 +43,11 @@ const Gigs = () => {
               </div>
             )}
           </div>
+        </div>
+        <div className="cards">
+          {gigs.map((gig) => {
+            return <GigCard key={gig.id} item={gig} />;
+          })}
         </div>
       </div>
     </div>
