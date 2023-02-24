@@ -77,12 +77,18 @@
           padding: 20px;
           background-color: #fff;
           border-radius: 5px;
-          border: .5px solid lightgreen;
+          border: 0.5px solid lightgrey;
           position: absolute;
           top: 30px;
           right: 0;
           display: flex;
           flex-direction: column;
+          gap: 20px;
+          color: #555;
+
+          span {
+            cursor: pointer;
+          }
         }
       }
     }
