@@ -8,34 +8,79 @@ const Messages = () => {
     isSeller: true,
   };
 
+  const message = `Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit amet, optio minus doloremque saepe illo voluptatum sunt sed ipsum perspiciatis repellendus ducimus aut expedita fugiat temporibus neque, cupiditate qui perferendis!`;
   return (
     <div className="messages">
       <div className="container">
         <div className="title">
-          <h1>Order Page</h1>
+          <h1>Messages</h1>
         </div>
         <table>
           <tr>
-            <th>Image</th>
-            <th>Title</th>
-            <th>Price</th>
-            <th>{CurrentUser?.isSeller ? "Buyer" : "Seller"}</th>
-            <th>Contact</th>
+            <th>Buyer</th>
+            <th>Last Message</th>
+            <th>Date</th>
+            <th>Action</th>
+          </tr>
+          <tr className="active">
+            <td>Tope Daniel</td>
+            <td>
+              <Link to="/message/123" className="link">
+                {message.substring(0, 100)}...
+              </Link>
+            </td>
+            <td>1 day ago</td>
+            <td>
+              <button>Mark as Read</button>
+            </td>
+          </tr>
+          <tr className="active">
+            <td>Tope Daniel</td>
+            <td>
+              <Link to="/message/123" className="link">
+                {message.substring(0, 100)}...
+              </Link>
+            </td>
+            <td>1 day ago</td>
+            <td>
+              <button>Mark as Read</button>
+            </td>
           </tr>
           <tr>
+            <td>Tope Daniel</td>
             <td>
-              <img
-                className="img"
-                src="https://images.pexels.com/photos/270408/pexels-photo-270408.jpeg?auto=compress&cs=tinysrgb&w=1600"
-                alt=""
-              />
+              <Link to="/message/123" className="link">
+                {message.substring(0, 100)}...
+              </Link>
             </td>
-            <td>Gig 1</td>
-            <td>88</td>
-            <td>123</td>
+            <td>1 day ago</td>
+          </tr>
+          <tr>
+            <td>Tope Daniel</td>
             <td>
-              <img className="delete" src="/img/message.png" alt="" />
+              <Link to="/message/123" className="link">
+                {message.substring(0, 100)}...
+              </Link>
             </td>
+            <td>1 day ago</td>
+          </tr>
+          <tr>
+            <td>Tope Daniel</td>
+            <td>
+              <Link to="/message/123" className="link">
+                {message.substring(0, 100)}...
+              </Link>
+            </td>
+            <td>1 day ago</td>
+          </tr>
+          <tr>
+            <td>Tope Daniel</td>
+            <td>
+              <Link to="/message/123" className="link">
+                {message.substring(0, 100)}...
+              </Link>
+            </td>
+            <td>1 day ago</td>
           </tr>
         </table>
       </div>
