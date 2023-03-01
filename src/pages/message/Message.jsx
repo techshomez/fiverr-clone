@@ -81,7 +81,20 @@ const Message = () => {
               laboriosam nisi animi! Error, tenetur!
             </p>
           </div>
+          <div className="item">
+            <img
+              src="https://avatars.githubusercontent.com/u/46303140?v=4"
+              alt=""
+            />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
+              non nobis, consectetur, odit nemo error repellat architecto
+              voluptatibus quam dolores rerum corrupti harum molestiae iste ea
+              mollitia facere nisi ex.
+            </p>
+          </div>
         </div>
+        <hr />
         <div className="write">
           <textarea
             name=""
