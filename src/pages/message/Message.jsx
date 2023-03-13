@@ -1,13 +1,15 @@
 import { Link } from "react-router-dom";
 import "./Message.scss";
-import { FiChevronsRight } from "react-icons/fi";
 
 const Message = () => {
   return (
     <div className="message">
       <div className="container">
         <span className="breadcrumbs">
-          <Link to="/messages">Messages</Link> <FiChevronsRight /> Tope Daniel
+          <Link to="/messages" className="link">
+            Messages
+          </Link>{" "}
+          {">"} Tope Daniel
         </span>
         <div className="messages">
           <div className="item">
