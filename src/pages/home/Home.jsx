@@ -7,7 +7,6 @@ import CategoryCard from "../../components/catCard/catCard";
 import { FaRegCheckCircle } from "react-icons/fa";
 import ProjectCard from "../../components/projectCard/proCard";
 
-
 const Home = () => {
   return (
     <div className="home">
