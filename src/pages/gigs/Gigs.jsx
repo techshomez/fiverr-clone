@@ -1,7 +1,7 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import "./Gigs.scss";
 import { gigs } from "../../data";
-import GigCard from "../../components/gigCard/GigCard";
+import GigCard from "../../components/gigCard/gigCard";
 
 const Gigs = () => {
   const [open, setOpen] = useState(false);
