@@ -5,6 +5,7 @@ import "./Home.scss";
 import { cards, projects } from "../../data";
 import CategoryCard from "../../components/catCard/catCard";
 import { FaRegCheckCircle } from "react-icons/fa";
+import ProjectCard from "../../components/projectCard/proCard";
 
 const Home = () => {
   return (
@@ -96,11 +97,10 @@ const Home = () => {
       </div>
       <Slide slidesToShow={4} arrowsScroll={4}>
         {projects.map((card) => {
-          return <CategoryCard item={card} key={card.id} />;
+          return <ProjectCard item={card} key={card.id} />;
         })}
       </Slide>
     </div>
   );
 };
-
 export default Home;
